@@ -97,7 +97,7 @@ public class Third_HW {
         System.out.println("Показатель времени LinkedList: " + (end - start) + " ms");
     }
 
-    // Реализация сортировки списков слиянием
+    // Сортировка слиянием
     private static void mergeSort(ArrayList<Integer> list) {
         if (list.size() <= 1) {
             return;
